@@ -1,0 +1,32 @@
+main{
+  margin: 0 auto;
+  text-align: center;
+}
+input {
+  max-width: 20em ;
+  padding:.3em 1em;
+  margin: 0 auto;
+  text-align: center;
+	display: block;
+
+	color: #101010;
+	font-size: 1.5em;
+	font-weight: 700;
+
+	border: none;
+	border-radius: 0.5em;
+	background:#ccc;
+	box-sizing: border-box;
+
+	outline: none;
+	appearance: none;
+
+
+
+}
+
+@media screen and (max-width: 520px) {
+	input {
+		font-size: 1.15em;
+	}
+}

@@ -1,0 +1,26 @@
+nav{
+  display: inline-block;
+  margin: 1em auto;
+  padding: 1.5em;
+  border-radius: 5em;
+  border: 2px solid #ccc;
+  a{
+    font-weight: 600;
+    margin: auto .6em;
+    text-decoration: none;
+    &:hover{
+      transition: .2s ease-in-out;
+      color: rgb(19, 101, 142);
+
+    }
+  }
+}
+.active{
+  &:before{
+    content: '-';
+  }
+  &:after{
+    content: '-';
+  }
+  color: black;
+}

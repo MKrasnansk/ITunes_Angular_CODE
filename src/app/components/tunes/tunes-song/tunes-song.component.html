@@ -1,0 +1,12 @@
+<article [@songAnim] class="tunes-song">
+  <div class="inside">
+    <h2> {{song | songify | shorten}}   </h2>
+
+  </div>
+  <div class="player">
+    <img *ngIf="song.artwork" [src]="song.artwork" alt="album art">
+    <audio controls [src]="song.audioFile"></audio>
+  </div>
+  <footer class="meta">{{song.album | shorten: 55}}</footer>
+
+</article>
